@@ -6,9 +6,10 @@ mongo = PyMongo()
 def create_app():
     app = Flask(__name__)
     app.config["MONGO_URI"] = "mongodb://mongo:27017/songs_db"
+
     mongo.init_app(app)
 
-    from app.routes import main
-    app.register_blueprint(main)
+    from .routes import songs_bp
+    app.register_blueprint(songs_bp)
 
     return app

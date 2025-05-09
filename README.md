@@ -4,8 +4,8 @@
 
 This is a Flask + MongoDB API to manage songs and ratings data.
 
-# Helsinki Task
-songs-api/
+# Helsinki Task- Song Api
+Helsinki/
 ├── app/
 │   ├── __init__.py
 │   ├── models.py
@@ -32,7 +32,7 @@ songs-api/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/songs-api.git
+git clone https://github.com/mukund7296/songs-api.git
 cd songs-api
 
 # Run the services
